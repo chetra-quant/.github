@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="acc" x1="120" y1="380" x2="420" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111826"/><stop offset="1" stop-color="#080B12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Q-ring, centered (256,256) r120, with a GATE GAP at lower-right (18deg..60deg open) -->
+  <path d="M 316 360 A 120 120 0 1 1 370 293"
+        fill="none" stroke="#F8FAFC" stroke-width="34" stroke-linecap="round"/>
+
+  <!-- one signal CLEARING the gate: starts inside the ring, exits through the gap, node outside -->
+  <line x1="205" y1="278" x2="408" y2="353" stroke="url(#acc)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="408" cy="353" r="18" fill="#34D399"/>
+</svg>
