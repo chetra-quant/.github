@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1600" height="640" fill="#0A0E17"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#22D3EE"/>
+  </marker>
+  <marker id="arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#94A3B8"/>
+  </marker>
+</defs>
+<line x1="264" y1="130.0" x2="296" y2="130.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="524" y1="130.0" x2="556" y2="130.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="784" y1="130.0" x2="816" y2="130.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1044" y1="130.0" x2="1076" y2="130.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1304" y1="130.0" x2="1336" y2="130.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 1450.0 164 C 1450.0 214, -30 232.0, -30 334.0 L 36 334.0" fill="none" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="264" y1="334.0" x2="296" y2="334.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="524" y1="334.0" x2="556" y2="334.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="784" y1="334.0" x2="816" y2="334.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1044" y1="334.0" x2="1076" y2="334.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1304" y1="334.0" x2="1336" y2="334.0" stroke="#22D3EE" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="40" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#1E293B" stroke-width="1.5"/>
+<text x="150.0" y="136.0" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Signal</text>
+<rect x="300" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#1E293B" stroke-width="1.5"/>
+<text x="410.0" y="136.0" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Backtest</text>
+<rect x="560" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="670.0" y="124" fill="#22D3EE" font-size="11" font-weight="700" letter-spacing="2" text-anchor="middle">GATE</text>
+<text x="670.0" y="147" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Causality</text>
+<rect x="820" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#1E293B" stroke-width="1.5"/>
+<text x="930.0" y="136.0" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Sel-block select</text>
+<rect x="1080" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#1E293B" stroke-width="1.5"/>
+<text x="1190.0" y="136.0" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Pre-register</text>
+<rect x="1340" y="96" width="220" height="68" rx="13" fill="#111826" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="1450.0" y="130" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Holdout</text>
+<text x="1450.0" y="149" fill="#22D3EE" font-size="12.5" font-weight="600" text-anchor="middle">opened once, ever</text>
+<rect x="40" y="300" width="220" height="68" rx="13" fill="#111826" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="150.0" y="334" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Spread stress</text>
+<text x="150.0" y="353" fill="#22D3EE" font-size="12.5" font-weight="600" text-anchor="middle">1.5× stress</text>
+<rect x="300" y="300" width="220" height="68" rx="13" fill="#111826" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="410.0" y="328" fill="#22D3EE" font-size="11" font-weight="700" letter-spacing="2" text-anchor="middle">GATE</text>
+<text x="410.0" y="351" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Correlation</text>
+<rect x="560" y="300" width="220" height="68" rx="13" fill="#111826" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="670.0" y="334" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">MT5 real-spread</text>
+<text x="670.0" y="353" fill="#22D3EE" font-size="12.5" font-weight="600" text-anchor="middle">broker replay</text>
+<rect x="820" y="300" width="220" height="68" rx="13" fill="#34D399" stroke="#34D399" stroke-width="1.5"/>
+<text x="930.0" y="334" fill="#062A1E" font-size="19" font-weight="600" text-anchor="middle">Paper book</text>
+<text x="930.0" y="353" fill="#0A3D2A" font-size="12.5" font-weight="600" text-anchor="middle">autonomous</text>
+<rect x="1080" y="300" width="220" height="68" rx="13" fill="#111826" stroke="#F59E0B" stroke-width="2"/>
+<rect x="1097" y="330.0" width="18" height="15" rx="3" fill="none" stroke="#F59E0B" stroke-width="2"/>
+<path d="M 1101 330.0 v-5 a5 5 0 0 1 10 0 v5" fill="none" stroke="#F59E0B" stroke-width="2"/>
+<text x="1204.0" y="334" fill="#F8FAFC" font-size="19" font-weight="600" text-anchor="middle">Human gate</text>
+<text x="1204.0" y="353" fill="#94A3B8" font-size="12.5" font-weight="600" text-anchor="middle">approval</text>
+<rect x="1340" y="300" width="220" height="68" rx="13" fill="#241A08" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="1450.0" y="334" fill="#FBBF24" font-size="19" font-weight="600" text-anchor="middle">Live</text>
+<text x="1450.0" y="353" fill="#94A3B8" font-size="12.5" font-weight="600" text-anchor="middle">human-gated</text>
+<rect x="300" y="500" width="560" height="66" rx="13" fill="#111826" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="580.0" y="528" fill="#22D3EE" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">ADVERSARY</text>
+<text x="580.0" y="550" fill="#F8FAFC" font-size="15" font-weight="500" text-anchor="middle">label-shuffle · look-ahead probe · spread-double</text>
+<line x1="580.0" y1="500" x2="580.0" y2="374" stroke="#94A3B8" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrA)"/>
+<text x="596.0" y="439.0" fill="#94A3B8" font-size="14" font-weight="600" text-anchor="start">tries to kill every survivor</text>
+<text x="40" y="616" fill="#94A3B8" font-size="14" font-weight="500">Autonomous through paper — a human hand gates live. Every gate is a place to say no.</text>
+</svg>

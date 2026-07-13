@@ -21,33 +21,9 @@
 
 A self-improving strategy pipeline where **search is deliberately expensive and evidence is deliberately scarce** — the only way to hunt for edge autonomously without overfitting into fiction.
 
-```mermaid
-flowchart LR
-    A[Signal] --> B[Backtest]
-    B --> C[Causality gate]
-    C --> D[Sel-block selection]
-    D --> E[Pre-register]
-    E --> F["Holdout<br/>(opened once, ever)"]
-    F --> G["Spread stress<br/>(1.5x)"]
-    G --> H[Correlation gate]
-    H --> I["MT5 real-spread replay"]
-    I --> J[Paper book]
-    J --> K{Human review}
-    K -->|approved| L["Live<br/>(human-gated)"]
-    K -->|rejected| M["Dead end<br/>(recorded, never re-walked)"]
-
-    Z["Adversary<br/>(label-shuffle, look-ahead probe, spread-double)"]
-    Z -. tries to kill .-> C
-    Z -. tries to kill .-> F
-    Z -. tries to kill .-> I
-
-    classDef live fill:#34D399,stroke:#0A0E17,color:#0A0E17,font-weight:bold;
-    classDef dead stroke:#94A3B8,stroke-width:2px,stroke-dasharray: 4 3;
-    classDef adversary stroke:#22D3EE,stroke-width:2px,stroke-dasharray: 3 2;
-    class L live;
-    class M dead;
-    class Z adversary;
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/chetra-quant/.github/main/profile/pipeline.png" alt="the gate chain — signal through nine gates to a paper book, with live behind a human-gated lock and a separate adversary trying to kill every survivor" width="100%"/>
+</div>
 
 Every gate is a place to say **no**. A hypothesis gets exactly one look at the sealed holdout — enforced at the data layer, not by convention — and the multiple-testing bar rises with every trial the factory has ever run. A separate adversary tries to *kill* each survivor before it reaches the paper book. Live money stays behind a human hand, always.
 
